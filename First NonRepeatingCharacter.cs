@@ -54,12 +54,12 @@ namespace Assignment5
           
         }
 
-        static public void Main()
-        {
+        //static public void Main()
+        //{
 
-            char[] A = new char[] { 'a', 'a', 'b', 'c' };
-            FirstNonRepeating(A);
+        //    char[] A = new char[] { 'a', 'a', 'b', 'c' };
+        //    FirstNonRepeating(A);
            
-        }
+        //}
     }
 }
