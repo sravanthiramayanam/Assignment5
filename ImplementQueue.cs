@@ -49,17 +49,17 @@ namespace ImplementQueueUsing2Stacks
         }
 
 
-        public static void Main(String[] args)
-        {
-            ImplementQueue q = new ImplementQueue();
-            q.enQueue(1);
-            q.enQueue(2);
-            q.enQueue(3);
+        //public static void Main(String[] args)
+        //{
+        //    ImplementQueue q = new ImplementQueue();
+        //    q.enQueue(1);
+        //    q.enQueue(2);
+        //    q.enQueue(3);
 
-            Console.Write(q.deQueue() + " ");
-            Console.Write(q.deQueue() + " ");
-            Console.Write(q.deQueue());
-        }
+        //    Console.Write(q.deQueue() + " ");
+        //    Console.Write(q.deQueue() + " ");
+        //    Console.Write(q.deQueue());
+        //}
     }
     // Driver code 
 
