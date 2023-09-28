@@ -61,20 +61,20 @@ namespace GetminelementO_1_
         public class GFG
         {
 
-            public static void Main(String[] args)
-            {
-                Getminelement s = new Getminelement();
+            //public static void Main(String[] args)
+            //{
+            //    Getminelement s = new Getminelement();
 
-                // Function call
-                s.push(-1);
-                s.push(10);
-                s.push(-4);
-                s.push(0);
-                Console.WriteLine(s.getMin());
-                Console.WriteLine(s.pop());
-                Console.WriteLine(s.pop());
-                Console.WriteLine(s.getMin());
-            }
+            //    // Function call
+            //    s.push(-1);
+            //    s.push(10);
+            //    s.push(-4);
+            //    s.push(0);
+            //    Console.WriteLine(s.getMin());
+            //    Console.WriteLine(s.pop());
+            //    Console.WriteLine(s.pop());
+            //    Console.WriteLine(s.getMin());
+            //}
         }
     
 }
