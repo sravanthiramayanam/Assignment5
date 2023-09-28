@@ -22,7 +22,6 @@ namespace GetminelementO_1_
          }
        }
 
-            /** initialize your data structure here. */
        public Getminelement() 
        { 
             this.s = new Stack<Node>(); 
@@ -46,18 +45,12 @@ namespace GetminelementO_1_
             return this.s.Pop().val;
        }
 
-       //public int top() 
-       //{ 
-       //     return this.s.Peek().val; 
-       //}
-
        public int getMin()
        { 
             return this.s.Peek().min;
        }
     }
 
-        // Driver code
         public class GFG
         {
 

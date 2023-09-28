@@ -18,7 +18,6 @@ namespace ImplementQueueUsing2Stacks
             while (s1.Count > 0)
             {
                 s2.Push(s1.Pop());
-                //s1.Pop(); 
             }
 
             // Push item into s1 
@@ -28,21 +27,18 @@ namespace ImplementQueueUsing2Stacks
             while (s2.Count > 0)
             {
                 s1.Push(s2.Pop());
-                //s2.Pop(); 
             }
         }
 
         // Dequeue an item from the queue 
         public int deQueue()
         {
-            // if first stack is empty 
             if (s1.Count == 0)
             {
                 Console.WriteLine("Q is Empty");
 
             }
 
-            // Return top of s1 
             int x = (int)s1.Peek();
             s1.Pop();
             return x;
@@ -61,11 +57,7 @@ namespace ImplementQueueUsing2Stacks
         //    Console.Write(q.deQueue());
         //}
     }
-    // Driver code 
 
 }
-
-// This code is contributed by 
-// Subhadeep Gupta 
 
 

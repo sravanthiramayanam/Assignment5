@@ -10,7 +10,6 @@ namespace ImplementStackUsing2Queues
     class ImplementStackUsing2Queues
     {
 
-        // Two inbuilt queues
         public Queue q1 = new Queue();
         public Queue q2 = new Queue();
 
@@ -43,18 +42,18 @@ namespace ImplementStackUsing2Queues
         }
 
 
-        public static void Main(String[] args)
-        {
-            ImplementStackUsing2Queues s = new ImplementStackUsing2Queues();
-            s.push(1);
-            s.push(2);
-            s.push(3);
+        //public static void Main(String[] args)
+        //{
+        //    ImplementStackUsing2Queues s = new ImplementStackUsing2Queues();
+        //    s.push(1);
+        //    s.push(2);
+        //    s.push(3);
 
-            Console.WriteLine(s.pop());
-            Console.WriteLine(s.pop());
-            Console.WriteLine(s.pop());
+        //    Console.WriteLine(s.pop());
+        //    Console.WriteLine(s.pop());
+        //    Console.WriteLine(s.pop());
 
-        }
+        //}
 
     }
 }

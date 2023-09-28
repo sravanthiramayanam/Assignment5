@@ -20,8 +20,7 @@ namespace Assignment5
             for (int i = 0; i < A.Length; i++)
             {
 
-                // if non-repeating element found push it in
-                // queue and count in map
+
                 if (!mp.ContainsKey(A[i]))
                 {
                     q.Enqueue(A[i]);
@@ -31,15 +30,12 @@ namespace Assignment5
                 else
                     mp[A[i]] = 1;
 
-                // if anytime starting element is repeating pop it
-                // form queue
                 while (q.Count > 0 && mp[q.Peek()] > 1)
                 {
                     q.Dequeue();
                 }
 
-                // if queue is not empty print starting element
-                // else print -1
+
                 if (q.Count > 0)
                 {
                      Console.WriteLine(q.Peek());
